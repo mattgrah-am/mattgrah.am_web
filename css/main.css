@@ -1,0 +1,85 @@
+/* Custom */
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,300,600');
+
+body, html {
+    background-color: #2E282A;
+    color: #FFFFFA;
+    font-weight: 300;
+}
+
+#logo {
+    font-family: 'Major Mono Display', monospace;
+    line-height: 0.85;
+    font-size: 12rem;
+    color: #45ADA8;
+}
+
+#title {
+    margin-bottom: 0rem;
+}
+
+hr {
+    margin: 1.5rem 0 1.5rem 0;
+    border-color: #45ADA8;
+}
+
+p {
+    margin: 0;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #45ADA8;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #547980;
+}
+
+.progress-bar {
+    background-color: #C5C3C6;
+    height: 2rem;
+    width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress-bar__inner {
+   text-align: center;
+   position: relative;
+   display: block;
+   height: 100%;
+   background-color: #45ADA8;
+   animation: run-progress 1s;
+}
+
+@keyframes run-progress {
+   0% {
+     width: 0;
+   }
+}
+
+td {
+    border: 0;
+}
+
+#footer-logo {
+    padding: 0;
+    text-align: right;
+    font-family: 'Major Mono Display', monospace;
+    line-height: 0.85;
+    font-size: 2rem;
+    color: #45ADA8;
+    margin-top: -0.8rem;
+}
+
+#footer {
+    font-size: 1.2rem;
+}
+
+.social {
+    margin: 0 1rem 0 0;
+    text-align: left;
+}
